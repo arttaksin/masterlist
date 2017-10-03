@@ -18,36 +18,36 @@
 	<?php include("header.php"); ?>
 
 	<!-- Container -->
-	<?php
-	switch ($_GET["page"]) {
-	case "home":
-		include("page_home.php");
-		break;
-	case "RRDO";
-		include("page_RRDO.php");
-		break;
-	case "masterlist":
-		include("page_masterlist.php");
-		break;
-	case "softwarelist":
-		include("page_softwarelist.php");
-		break;
-	case "DO":
-		include("page_DO.php");
-		break;
-    case "register":
-      include("page_register.php");
-      break;
-	default:
-		echo "home";
-		include("page_home.php");
-	}
-	?>
+	<div class="uk-grid" data-uk-grid-margin>
+                <div class="uk-width-medium-4">
 
-	</td>
-  </tr>
-  <tr>
-    <td colspan="2"><div align="center">
+                    <article class="uk-article">
+
+                        <h1 class="uk-article-title">
+                            <h2>Home</h2>
+                            <hr>
+                        </h1>
+                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+
+            </div>
+
+        </div>
+        <br>
+        <br>
 
 	<!-- Footer -->
 	<?php include("footer.php"); ?>
