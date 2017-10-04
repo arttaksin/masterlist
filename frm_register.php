@@ -1,19 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<tile></tile>  
-    <style type="text/css">
-        div{
-            width: 200px;
-            height: 100px;
-            margin: auto;
-            
-        }
-        label{
-            display: block;
-        }
-  </style>
+<title>MasterList</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
+
+<link href="css/uikit.css" rel="stylesheet">
+<script src="../vendor/jquery.js"></script>
+<script src="js/uikit.js"></script>
+<script src="js/uikit.min.js"></script>
 </head>
     <body>
+        <?php include("header.php");?>
+
         <div>
     <h1>ลงทะเบียน</h1>
         <form action="register.php" method="post">

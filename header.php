@@ -1,10 +1,10 @@
 
 
             <nav class="uk-navbar uk-margin-large-bottom">
-                <a class="uk-navbar-brand uk-hidden-small" href="index.php">MasterList</a>
+                <a class="uk-navbar-brand uk-hidden-small" href="main.php">MasterList</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                    <li>
-                    <a href="index.php">Home</a>
+                    <a href="main.php">Home</a>
                   </li>
                     <li>
                         <a href="page_RRDO.php">RR,DO</a>
@@ -19,7 +19,7 @@
                         <a href="page_DO.php">DO</a>
                     </li>
                     <li>
-                        <a href="page_register.php">Register</a>
+                        <a href="frm_register.php">Register</a>
                     </li>
                 </ul>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
