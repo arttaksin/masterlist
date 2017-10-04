@@ -15,12 +15,13 @@
 </head>
 
 <body>
-  <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
+  
 
 	<!-- Header -->
 	<?php include("header.php"); ?>
 
 	<!-- Container -->
+    <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 	<div class="uk-grid" data-uk-grid-margin>
                 <div class="uk-width-medium-4">
 
@@ -44,20 +45,17 @@
                             <div class="uk-width-medium-1-3">
                                 <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
                             </div>
+                       
                         </div>
-
+                    </article>
             </div>
 
         </div>
+    </div>
         <br>
         <br>
 
 	<!-- Footer -->
 	<?php include("footer.php"); ?>
-
-	</div></td>
-  </tr>
-</table>
-</div>
 </body>
 </html>
