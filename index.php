@@ -4,7 +4,7 @@
 <head>
 <title>MasterList</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-874">
-
+<link href="css/uikit.min.css" rel="stylesheet">
 <link href="css/uikit.css" rel="stylesheet">
 <script src="../vendor/jquery.js"></script>
 <script src="js/uikit.js"></script>
@@ -12,7 +12,8 @@
 </head>
 
 <body class="uk-height-1-1">
-    <div class="uk-vertical-align uk-text-center uk-height-1-1">
+    <br><br><br>
+   <div class="uk-vertical-align uk-text-center uk-height-1-1">
             <div class="uk-vertical-align-middle" style="width: 250px;">
 
                 <img class="uk-margin-bottom" width="140" height="120" src="IMG/rotarylogo.jpg" alt="">
@@ -22,7 +23,7 @@
                         <input class="uk-width-1-1 uk-form-large" type="text" name="username" placeholder="Username" required autofocus>
                     </div>
                     <div class="uk-form-row">
-                        <input class="uk-width-1-1 uk-form-large" type="password"  name="password" placeholder="Password" required autofocus>
+                        <input class="uk-width-1-1 uk-form-large" type="password" name="password" placeholder="Password" required autofocus>
                     </div>
                     <div class="uk-form-row">
                         <input class="uk-width-1-1 uk-button uk-button-primary uk-button-large" type="submit" name="Submit" value="Login">
@@ -34,6 +35,7 @@
                 </form>
 
             </div>
+        </div>
   
 </body>
 </html>
