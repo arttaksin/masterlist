@@ -13,7 +13,7 @@ $qurey = "INSERT INTO admin (admin_EMP,admin_username,admin_password,admin_email
 $result = mysqli_query($dbcon,$qurey);
 if($result){
 
-    header("Location: login.php");
+    header("Location: index.php");
 
 }else {
    echo "เกิดข้อผิดพลาด" .mysqli_error($dbcon);
