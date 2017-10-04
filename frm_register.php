@@ -11,22 +11,38 @@
 <script src="js/uikit.min.js"></script>
 </head>
     <body>
-        <?php include("header.php");?>
-
-        <div>
-    <h1>ลงทะเบียน</h1>
-        <form action="register.php" method="post">
-            <label for="id_emp">ID EMP :</label>
-            <input type="id_emp" name="id_emp" required autofocus>
-            <label for="username">Username :</label>
-            <input type="username" name="username" required autofocus>
-            <label for="password">password :</label>
-            <input type="password" name="password" required>
-            <label for="email">E-Mail :</label>
-            <input type="email" name="email" placeholder="@domain.com" required>
-            <br><br>
-            <input type="submit" value="ลงทะเบียน">
-        </form>
+    <?php include("header.php");?>
+            <div class="uk-container">
+                <div class="uk-vertical-align-middle" style="width:80%;">
+            
+                <form class="uk-panel uk-panel-box uk-form" action="register.php" method="post">
+                <h2>ลงทะเบียน</h2>
+                <hr>
+                <div class="uk-form-row">
+                        <input class="uk-width-1-2 uk-form-large" type="text" name="id_emp" placeholder="ID EMP" required autofocus>
+                    </div>
+                    <div class="uk-form-row">
+                        <input class="uk-width-1-2 uk-form-large" type="username" name="username" placeholder="Username" required autofocus>
+                    </div>
+                    <div class="uk-form-row">
+                        <input class="uk-width-1-2 uk-form-large" type="password" name="password" placeholder="Password" required autofocus>
+                    </div>
+                    <div class="uk-form-row">
+                        <input class="uk-width-1-2 uk-form-large" type="email" name="email" placeholder="E-Mail" required autofocus>
+                    </div>
+                    
+                    <div class="uk-form-row">
+                        <input class=" uk-button uk-button-primary uk-button-large" type="submit" name="Submit" value="ลงทะเบียน">
+                    </div>
+                </form>
             </div>
+        </div>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+
+    <?php include("footer.php");?>
     </body>
 </html>
