@@ -1892,7 +1892,6 @@ ul.uk-nav-sub {
 .uk-nav-navbar > li > a:focus {
   background: #00a8e6;
   color: #fff;
-  /* 2 */
   outline: none;
 }
 /*
@@ -1975,6 +1974,10 @@ html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
 .uk-navbar {
   background: #002554;
   color: #fff;
+  position: fixed; /* Set the navbar to fixed position */
+    top:0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
 }
 /*
  * Micro clearfix

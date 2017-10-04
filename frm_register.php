@@ -12,8 +12,9 @@
 </head>
     <body>
     <?php include("header.php");?>
+    <br><br>
             <div class="uk-container">
-                <div class="uk-vertical-align-middle" style="width:80%;">
+            <div class="uk-vertical-align-middle" style="width:80%;">
             
                 <form class="uk-panel uk-panel-box uk-form" action="register.php" method="post">
                 <h2>ลงทะเบียน</h2>
@@ -38,7 +39,7 @@
             </div>
         </div>
          
-         <br>
+         <br> <br> <br> <br> <br> <br> <br>
 
     <?php include("footer.php");?>
     </body>
