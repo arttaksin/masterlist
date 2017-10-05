@@ -26,9 +26,9 @@
                 <div class="uk-width-medium-4">
 
                     <article class="uk-article">
-
+                        <h2>RR,DO</h2>
                         <h1 class="uk-article-title">
-                            <h2>RR,DO</h2>
+                            
                             <hr>
                         </h1>
                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
@@ -52,8 +52,6 @@
 
         </div>
     </div>
-        <br>
-        <br>
 
 	<!-- Footer -->
 	<?php include("footer.php"); ?>

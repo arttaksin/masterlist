@@ -23,12 +23,12 @@
 	<!-- Container -->
     <div class="uk-container uk-container-center uk-margin-top uk-margin-large-bottom">
 	<div class="uk-grid" data-uk-grid-margin>
-                <div class="uk-width-medium-4">
 
+                <div class="uk-width-medium-4">
+                    <h2>Home</h2>
                     <article class="uk-article">
 
                         <h1 class="uk-article-title">
-                            <h2>Home</h2>
                             <hr>
                         </h1>
                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">

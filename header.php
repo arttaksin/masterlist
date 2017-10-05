@@ -23,9 +23,6 @@
                     <li>
                         <a href="frm_register.php">Register</a>
                     </li>
-                    <li>
-                        <a href="logout.php">Logout</a>
-                    </li>
                     
                 </ul>
                 <div class = "uk-navbar-flip">

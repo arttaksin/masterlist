@@ -8970,16 +8970,20 @@ a.uk-thumbnail:focus {
 /* Footer
 ==========================*/
 .footer-top {
-    padding: 10px 0;
-	background: #002554;
-	color: #fff;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background: #002554;
+  color: #fff;
 
 }
 
 .footer-top h3 {
     color: #002554;
     font-size: 18px;
-	margin-bottom: 25px;
+	margin-bottom: 60px;
 }
 
  .copyright { font-size:13px; color:#ccc;}
