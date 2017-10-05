@@ -7,9 +7,9 @@
 <head>
 <title>MasterList</title>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-874">
-
+<link href="css/uikit.min.css" rel="stylesheet">
 <link href="css/uikit.css" rel="stylesheet">
-<script src="../vendor/jquery.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/uikit.js"></script>
 <script src="js/uikit.min.js"></script>
 </head>
@@ -47,6 +47,11 @@
                             </div>
                         </div>
                   </article>
+         
+
+
+
+
             </div>
 
         </div>

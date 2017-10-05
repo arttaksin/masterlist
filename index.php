@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=windows-874">
 <link href="css/uikit.min.css" rel="stylesheet">
 <link href="css/uikit.css" rel="stylesheet">
-<script src="../vendor/jquery.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/uikit.js"></script>
 <script src="js/uikit.min.js"></script>
 </head>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="uk-form-row uk-text-small">
                         <label class="uk-float-left"><input type="checkbox"> Remember Me</label>
-                        <a class="uk-float-right uk-link uk-link-muted" href="#">Forgot Password?</a>
+                        <a class="uk-float-right uk-link uk-link-muted" href="#">Register</a>
                     </div>
                 </form>
 

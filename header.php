@@ -1,6 +1,8 @@
 
-
-            <nav class="uk-navbar uk-margin-large-bottom">
+<?php
+        include 'session.php';
+?>
+           <nav class="uk-navbar uk-margin-large-bottom">
                 <a class="uk-navbar-brand uk-hidden-small" href="main.php">MasterList</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                    <li>
@@ -21,8 +23,40 @@
                     <li>
                         <a href="frm_register.php">Register</a>
                     </li>
+                    <li>
+                        <a href="logout.php">Logout</a>
+                    </li>
+                    
                 </ul>
+                 <a class="uk-navbar-brand uk-hidden-small"> <?php 
+                    echo "สวัสดี : $s_login_username ";
+                    ?></a>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
             </nav>
             <br><br>
+
+  <!--<nav class="uk-navbar">
+
+                                <ul class="uk-navbar-nav">
+                                    <li class="uk-active"><a href="">Active</a></li>
+                                    <li><a href="">Item</a></li>
+                                    <li class="uk-parent" data-uk-dropdown>
+                                        <a href="">Parent <i class="uk-icon-caret-down"></i></a>
+
+                                        <div class="uk-dropdown uk-dropdown-navbar">
+                                            <ul class="uk-nav uk-nav-navbar">
+                                                <li><a href="#">Item</a></li>
+                                                <li><a href="#">Another item</a></li>
+                                                <li class="uk-nav-header">Header</li>
+                                                <li><a href="#">Item</a></li>
+                                                <li><a href="#">Another item</a></li>
+                                                <li class="uk-nav-divider"></li>
+                                                <li><a href="#">Separated item</a></li>
+                                            </ul>
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+                            </nav>-->
