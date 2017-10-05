@@ -51,7 +51,7 @@
                                 </div>
                              <div class="uk-form-row">
                                 <div class="uk-form-controls">
-                         <input class=" uk-button uk-button-primary uk-button-large" type="submit" name="Submit" value="ลงทะเบียน">
+                         <button class=" uk-button uk-button-primary" type="submit" name="Submit">ลงทะเบียน</button>
                            </div>
                        </div>
                                
