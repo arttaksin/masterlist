@@ -57,25 +57,6 @@
         </div>
     </div>
 
-        <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br> <br>
-        <br>
 
 	<!-- Footer -->
 	<?php include("footer.php"); ?>

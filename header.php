@@ -28,9 +28,22 @@
                     </li>
                     
                 </ul>
-                 <a class="uk-navbar-brand uk-hidden-small"> <?php 
-                    echo "สวัสดี : $s_login_username ";
-                    ?></a>
+                <div class = "uk-navbar-flip">
+                    <ul class = "uk-navbar-nav">
+                        <li class="uk-parent" data-uk-dropdown>
+                        <a> 
+                        <?php 
+                        echo "สวัสดี : $s_login_username ";
+                        ?></a>
+                            <div class = "uk-dropdown uk-dropdown-navbar">
+                                <ul class = "uk-nav uk-nav-navbar">
+                                    <li><a href = "#">View user</a></li>
+                                    <li><a href = "logout.php">Logout</a></li>
+                                </ul>
+                            </div> 
+                        </li>
+                    </ul>
+                </div>
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
             </nav>
