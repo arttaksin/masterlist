@@ -29,24 +29,10 @@
                     <article class="uk-article">
 
                         <h1 class="uk-article-title">
-                            <hr>
                         </h1>
-                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                  </article>
+                        <?php include("note_it.php"); ?>
+
+                    </article>
          
 
 
@@ -54,7 +40,7 @@
 
             </div>
 
-        </div>
+    </div>
     </div>
 
 

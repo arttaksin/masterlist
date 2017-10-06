@@ -1,4 +1,3 @@
-
 <?php
     include 'session.php';
 ?>
@@ -48,6 +47,7 @@
                                     <div class="uk-form-controls">
                                         <input type="email" id="form-h-it" name="email" placeholder="กรอก E-Mail">
                                     </div>
+                                </div>
                                 </div>
                              <div class="uk-form-row">
                                 <div class="uk-form-controls">
