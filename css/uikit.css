@@ -8970,12 +8970,9 @@ a.uk-thumbnail:focus {
 /* Footer
 ==========================*/
 .footer-top {
-<<<<<<< HEAD
   right: 0;
   left: 0;
-=======
   text-align: center;
->>>>>>> 9f8b6554af7657249e7ba16771d03b88248255ee
   padding: 1rem;
   background: #002554;
   color: #fff;
