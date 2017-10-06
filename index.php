@@ -12,7 +12,9 @@
 </head>
 
 <body class="uk-height-1-1">
-    <br><br><br>
+    <br>
+    <br>
+  
    <div class="uk-vertical-align uk-text-center uk-height-1-1">
             <div class="uk-vertical-align-middle" style="width: 250px;">
 

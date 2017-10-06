@@ -15,7 +15,6 @@
 </head>
 
 <body>
-  
 
 	<!-- Header -->
 	<?php include("header.php"); ?>
@@ -41,6 +40,41 @@
                                 <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
                             </div>
                         </div>
+                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
+                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
+                            <div class="uk-width-medium-1-3">
+                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
+                            </div>
+                        </div>
                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
                             <div class="uk-width-medium-1-3">
                                 <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
@@ -60,5 +94,6 @@
 
 	<!-- Footer -->
 	<?php include("footer.php"); ?>
+
 </body>
 </html>
