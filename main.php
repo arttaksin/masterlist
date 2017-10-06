@@ -29,68 +29,9 @@
 
                         <h1 class="uk-article-title">
                         </h1>
-<<<<<<< HEAD
                         <?php include("note_it.php"); ?>
 
                     </article>
-=======
-                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                         <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                        <div class="uk-grid uk-grid-match" data-uk-grid-match="{target:'.uk-panel'}">
-                            <div class="uk-width-medium-1-3">
-                                <div class="uk-panel">Lorem ipsum dolor sit amet.</div>
-                            </div>
-                        </div>
-                  </article>
->>>>>>> 9f8b6554af7657249e7ba16771d03b88248255ee
-         
-
-
-
-
             </div>
 
     </div>
