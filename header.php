@@ -29,7 +29,7 @@
                         <li class="uk-parent" data-uk-dropdown>
                         <a> 
                         <?php 
-                        echo "สวัสดี : $s_login_username ";
+                        echo "USER : $s_login_username ";
                         ?></a>
                             <div class = "uk-dropdown uk-dropdown-navbar">
                                 <ul class = "uk-nav uk-nav-navbar">

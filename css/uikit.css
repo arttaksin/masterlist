@@ -8970,50 +8970,15 @@ a.uk-thumbnail:focus {
 /* Footer
 ==========================*/
 .footer-top {
+<<<<<<< HEAD
   right: 0;
   left: 0;
+=======
+  text-align: center;
+>>>>>>> 9f8b6554af7657249e7ba16771d03b88248255ee
   padding: 1rem;
   background: #002554;
   color: #fff;
 
 }
 
-.footer-top h3 {
-    color: #002554;
-    font-size: 18px;
-	margin-bottom: 60px;
-}
-
- .copyright { font-size:13px; color:#ccc;}
-ul.get-social {
-    padding: 0;
-	list-style: none;
-	overflow: hidden;
-}
-
-ul.get-social li {
-    float: left;
-	position: relative;
-	margin-right: 3px;
-}
-
-ul.get-social li  a  i {
-    display: block;
-    color: #fff;
-	font-size: 18px;
-	background: #ffd100;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
-	text-align: center;
-	border-radius: 50%;
-	border: 1px solid #ffd100;
-    transition: all 0.3s ease 0s;
-}
-
-ul.get-social li  a i:hover {
-    display: block;
-	background: #222c36;
-	color: #ffd100;
-	border: 1px solid #ffd100;
-}
