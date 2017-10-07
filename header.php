@@ -1,7 +1,23 @@
 <?php
         include 'session.php';
+
 ?>
-           <nav class="uk-navbar uk-margin-large-bottom">
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>MasterList</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
+<link href="css/uikit.min.css" rel="stylesheet">
+<link href="css/docs.css" rel="stylesheet">
+<link href="css/uikit.css" rel="stylesheet">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/uikit.js"></script>
+<script src="js/uikit.min.js"></script>
+</head>
+           <nav class="tm-navbar uk-navbar uk-navbar-attached">
+            <div class="uk-container uk-container-center">
                 <a class="uk-navbar-brand uk-hidden-small" href="main.php">MasterList</a>
                 <ul class="uk-navbar-nav uk-hidden-small">
                    <li>
@@ -18,6 +34,9 @@
                     </li>
                     <li>
                         <a href="page_DO.php">DO</a>
+                    </li>
+                    <li>
+                        <a href="#">IT Service</a>
                     </li>
                     <li>
                         <a href="frm_register.php">Register</a>
@@ -43,29 +62,4 @@
                 <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
                 <div class="uk-navbar-brand uk-navbar-center uk-visible-small">Brand</div>
             </nav>
-            <br><br>
-
-  <!--<nav class="uk-navbar">
-
-                                <ul class="uk-navbar-nav">
-                                    <li class="uk-active"><a href="">Active</a></li>
-                                    <li><a href="">Item</a></li>
-                                    <li class="uk-parent" data-uk-dropdown>
-                                        <a href="">Parent <i class="uk-icon-caret-down"></i></a>
-
-                                        <div class="uk-dropdown uk-dropdown-navbar">
-                                            <ul class="uk-nav uk-nav-navbar">
-                                                <li><a href="#">Item</a></li>
-                                                <li><a href="#">Another item</a></li>
-                                                <li class="uk-nav-header">Header</li>
-                                                <li><a href="#">Item</a></li>
-                                                <li><a href="#">Another item</a></li>
-                                                <li class="uk-nav-divider"></li>
-                                                <li><a href="#">Separated item</a></li>
-                                            </ul>
-                                        </div>
-
-                                    </li>
-                                </ul>
-
-                            </nav>-->
+           <br><br>

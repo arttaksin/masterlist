@@ -1,18 +1,6 @@
 <?php
     include 'session.php';
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<title>MasterList</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
-
-<link href="css/uikit.css" rel="stylesheet">
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/uikit.js"></script>
-<script src="js/uikit.min.js"></script>
-</head>
     <body>
     <?php include("header.php");?>
 
@@ -33,19 +21,19 @@
                                 <div class="uk-form-row">
                                     <label class="uk-form-label" for="form-h-it">USERNAME  </label>
                                     <div class="uk-form-controls">
-                                        <input type="text" id="form-h-it" name="username" placeholder="กรอกชื่อพนักงาน">
+                                        <input type="text" id="form-h-it" name="username" placeholder="กรอกชื่อพนักงาน" required="autofocus">
                                     </div>
                                 </div>
                                 <div class="uk-form-row">
                                     <label class="uk-form-label" for="form-h-ip">PASSWORD</label>
                                     <div class="uk-form-controls">
-                                        <input type="password" id="form-h-ip" name="password" placeholder="กรอกรหัสผ่าน">
+                                        <input type="password" id="form-h-ip" name="password" placeholder="กรอกรหัสผ่าน" required="autofocus">
                                     </div>
                                 </div>
                                 <div class="uk-form-row">
                                     <label class="uk-form-label" for="form-h-it">E-MAIL  </label>
                                     <div class="uk-form-controls">
-                                        <input type="email" id="form-h-it" name="email" placeholder="กรอก E-Mail">
+                                        <input type="email" id="form-h-it" name="email" placeholder="กรอก E-Mail" required="autofocus">
                                     </div>
                                 </div>
                                 </div>

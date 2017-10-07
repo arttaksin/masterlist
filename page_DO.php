@@ -1,18 +1,6 @@
 <?php
     include 'session.php';
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<title>MasterList</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
-
-<link href="css/uikit.css" rel="stylesheet">
-<script src="../vendor/jquery.js"></script>
-<script src="js/uikit.js"></script>
-<script src="js/uikit.min.js"></script>
-</head>
 
 <body>
   

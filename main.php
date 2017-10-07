@@ -1,19 +1,7 @@
 <?php
     include 'session.php';
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<title>MasterList</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-874">
-<link href="css/uikit.min.css" rel="stylesheet">
-<link href="css/uikit.css" rel="stylesheet">
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/uikit.js"></script>
-<script src="js/uikit.min.js"></script>
-</head>
-
+<!--ส่วนของเนื้อหา-->
 <body>
 
 	<!-- Header -->
@@ -25,6 +13,7 @@
 
                 <div class="uk-width-medium-4">
                     <h2>Home</h2>
+                    <hr>
                     <article class="uk-article">
 
                         <h1 class="uk-article-title">
@@ -36,7 +25,7 @@
 
     </div>
     </div>
-
+<br><br><br>
 
 	<!-- Footer -->
 	<?php include("footer.php"); ?>
